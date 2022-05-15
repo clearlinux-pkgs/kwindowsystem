@@ -1,5 +1,5 @@
 PKG_NAME := kwindowsystem
-URL = https://download.kde.org/stable/frameworks/5.93/kwindowsystem-5.93.0.tar.xz
+URL = https://download.kde.org/stable/frameworks/5.94/kwindowsystem-5.94.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
