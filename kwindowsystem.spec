@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kwindowsystem
-Version  : 5.100.0
-Release  : 59
-URL      : https://download.kde.org/stable/frameworks/5.100/kwindowsystem-5.100.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.100/kwindowsystem-5.100.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.100/kwindowsystem-5.100.0.tar.xz.sig
+Version  : 5.101.0
+Release  : 60
+URL      : https://download.kde.org/stable/frameworks/5.101/kwindowsystem-5.101.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.101/kwindowsystem-5.101.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.101/kwindowsystem-5.101.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CC0-1.0 LGPL-2.1 LGPL-3.0 MIT
@@ -71,15 +71,15 @@ license components for the kwindowsystem package.
 
 
 %prep
-%setup -q -n kwindowsystem-5.100.0
-cd %{_builddir}/kwindowsystem-5.100.0
+%setup -q -n kwindowsystem-5.101.0
+cd %{_builddir}/kwindowsystem-5.101.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1668443446
+export SOURCE_DATE_EPOCH=1671043443
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -95,7 +95,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1668443446
+export SOURCE_DATE_EPOCH=1671043443
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kwindowsystem
 cp %{_builddir}/kwindowsystem-%{version}/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kwindowsystem/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0 || :
@@ -229,6 +229,7 @@ popd
 /usr/include/KF5/KWindowSystem/KWindowShadow
 /usr/include/KF5/KWindowSystem/KWindowShadowTile
 /usr/include/KF5/KWindowSystem/KWindowSystem
+/usr/include/KF5/KWindowSystem/KX11Extras
 /usr/include/KF5/KWindowSystem/KXMessages
 /usr/include/KF5/KWindowSystem/NETWM
 /usr/include/KF5/KWindowSystem/config-kwindowsystem.h
@@ -246,6 +247,7 @@ popd
 /usr/include/KF5/KWindowSystem/kwindowsystem.h
 /usr/include/KF5/KWindowSystem/kwindowsystem_export.h
 /usr/include/KF5/KWindowSystem/kwindowsystem_version.h
+/usr/include/KF5/KWindowSystem/kx11extras.h
 /usr/include/KF5/KWindowSystem/kxmessages.h
 /usr/include/KF5/KWindowSystem/netwm.h
 /usr/include/KF5/KWindowSystem/netwm_def.h
@@ -264,7 +266,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5WindowSystem.so.5
-/usr/lib64/libKF5WindowSystem.so.5.100.0
+/usr/lib64/libKF5WindowSystem.so.5.101.0
 /usr/lib64/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemX11Plugin.so
 
 %files license
