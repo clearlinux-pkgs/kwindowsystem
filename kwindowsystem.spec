@@ -8,11 +8,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kwindowsystem
-Version  : 5.111.0
-Release  : 72
-URL      : https://download.kde.org/stable/frameworks/5.111/kwindowsystem-5.111.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.111/kwindowsystem-5.111.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.111/kwindowsystem-5.111.0.tar.xz.sig
+Version  : 5.112.0
+Release  : 73
+URL      : https://download.kde.org/stable/frameworks/5.112/kwindowsystem-5.112.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.112/kwindowsystem-5.112.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.112/kwindowsystem-5.112.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CC0-1.0 LGPL-2.1 LGPL-3.0 MIT
@@ -77,15 +77,15 @@ license components for the kwindowsystem package.
 
 
 %prep
-%setup -q -n kwindowsystem-5.111.0
-cd %{_builddir}/kwindowsystem-5.111.0
+%setup -q -n kwindowsystem-5.112.0
+cd %{_builddir}/kwindowsystem-5.112.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698095079
+export SOURCE_DATE_EPOCH=1699892828
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -144,7 +144,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1698095079
+export SOURCE_DATE_EPOCH=1699892828
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kwindowsystem
 cp %{_builddir}/kwindowsystem-%{version}/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kwindowsystem/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0 || :
@@ -318,10 +318,10 @@ popd
 
 %files lib
 %defattr(-,root,root,-)
-/V3/usr/lib64/libKF5WindowSystem.so.5.111.0
+/V3/usr/lib64/libKF5WindowSystem.so.5.112.0
 /V3/usr/lib64/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemX11Plugin.so
 /usr/lib64/libKF5WindowSystem.so.5
-/usr/lib64/libKF5WindowSystem.so.5.111.0
+/usr/lib64/libKF5WindowSystem.so.5.112.0
 /usr/lib64/qt5/plugins/kf5/kwindowsystem/KF5WindowSystemX11Plugin.so
 
 %files license
