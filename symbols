@@ -1,540 +1,133 @@
-libKF6WindowSystem.so.6:KKeyServer::xEventToQt(_XEvent*, int*)
-libKF6WindowSystem.so.6:KKeyServer::keyQtToModX(int, unsigned int*)
-libKF6WindowSystem.so.6:KKeyServer::keyQtToSymX(int, int*)
-libKF6WindowSystem.so.6:KKeyServer::modXNumLock()
-libKF6WindowSystem.so.6:KKeyServer::keyQtToCodeX(int, int*)
-libKF6WindowSystem.so.6:KKeyServer::keyQtToSymXs(int)
 libKF6WindowSystem.so.6:KKeyServer::accelModMaskX()
-libKF6WindowSystem.so.6:KKeyServer::keyQtToCodeXs(int)
 libKF6WindowSystem.so.6:KKeyServer::initializeMods()
-libKF6WindowSystem.so.6:KKeyServer::modXModeSwitch()
-libKF6WindowSystem.so.6:KKeyServer::modXScrollLock()
-libKF6WindowSystem.so.6:KKeyServer::modToStringUser(unsigned int)
-libKF6WindowSystem.so.6:KKeyServer::stringUserToMod(QString const&)
-libKF6WindowSystem.so.6:KKeyServer::symXModXToKeyQt(unsigned int, unsigned short, int*)
-libKF6WindowSystem.so.6:KKeyServer::keyboardHasMetaKey()
-libKF6WindowSystem.so.6:KKeyServer::xcbKeyPressEventToQt(xcb_generic_event_t*, int*)
-libKF6WindowSystem.so.6:KKeyServer::xcbKeyPressEventToQt(xcb_key_press_event_t*, int*)
 libKF6WindowSystem.so.6:KKeyServer::isShiftAsModifierAllowed(int)
+libKF6WindowSystem.so.6:KKeyServer::keyQtToCodeXs(int)
+libKF6WindowSystem.so.6:KKeyServer::keyQtToSymXs(int)
+libKF6WindowSystem.so.6:KKeyServer::keyboardHasMetaKey()
 libKF6WindowSystem.so.6:KKeyServer::modXAlt()
 libKF6WindowSystem.so.6:KKeyServer::modXCtrl()
 libKF6WindowSystem.so.6:KKeyServer::modXLock()
 libKF6WindowSystem.so.6:KKeyServer::modXMeta()
-libKF6WindowSystem.so.6:KKeyServer::modXToQt(unsigned int, int*)
+libKF6WindowSystem.so.6:KKeyServer::modXModeSwitch()
+libKF6WindowSystem.so.6:KKeyServer::modXNumLock()
+libKF6WindowSystem.so.6:KKeyServer::modXScrollLock()
 libKF6WindowSystem.so.6:KKeyServer::modXShift()
-libKF6WindowSystem.so.6:KX11Extras::clearState(unsigned long long, QFlags<NET::State>)
-libKF6WindowSystem.so.6:KX11Extras::desktopName(int)
-libKF6WindowSystem.so.6:KX11Extras::mapViewport()
-libKF6WindowSystem.so.6:KX11Extras::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KX11Extras::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KX11Extras::windowAdded(unsigned long long)
-libKF6WindowSystem.so.6:KX11Extras::activeWindow()
-libKF6WindowSystem.so.6:KX11Extras::setOnDesktop(unsigned long long, int)
-libKF6WindowSystem.so.6:KX11Extras::strutChanged()
-libKF6WindowSystem.so.6:KX11Extras::connectNotify(QMetaMethod const&)
-libKF6WindowSystem.so.6:KX11Extras::stackingOrder()
-libKF6WindowSystem.so.6:KX11Extras::windowChanged(unsigned long long, QFlags<NET::Property>, QFlags<NET::Property2>)
-libKF6WindowSystem.so.6:KX11Extras::windowRemoved(unsigned long long)
-libKF6WindowSystem.so.6:KX11Extras::activateWindow(unsigned long long, long)
-libKF6WindowSystem.so.6:KX11Extras::currentDesktop()
-libKF6WindowSystem.so.6:KX11Extras::minimizeWindow(unsigned long long)
-libKF6WindowSystem.so.6:KX11Extras::setDesktopName(int, QString const&)
-libKF6WindowSystem.so.6:KX11Extras::showingDesktop()
-libKF6WindowSystem.so.6:KX11Extras::setOnActivities(unsigned long long, QList<QString> const&)
-libKF6WindowSystem.so.6:KX11Extras::workAreaChanged()
-libKF6WindowSystem.so.6:KX11Extras::numberOfDesktops()
-libKF6WindowSystem.so.6:KX11Extras::readNameProperty(unsigned long long, unsigned long)
-libKF6WindowSystem.so.6:KX11Extras::setExtendedStrut(unsigned long long, double, double, double, double, double, double, double, double, double, double, double, double)
-libKF6WindowSystem.so.6:KX11Extras::setOnAllDesktops(unsigned long long, bool)
-libKF6WindowSystem.so.6:KX11Extras::unminimizeWindow(unsigned long long)
-libKF6WindowSystem.so.6:KX11Extras::compositingActive()
-libKF6WindowSystem.so.6:KX11Extras::forceActiveWindow(QWindow*, long)
-libKF6WindowSystem.so.6:KX11Extras::forceActiveWindow(unsigned long long, long)
-libKF6WindowSystem.so.6:KX11Extras::setCurrentDesktop(int)
-libKF6WindowSystem.so.6:KX11Extras::setShowingDesktop(bool)
-libKF6WindowSystem.so.6:KX11Extras::compositingChanged(bool)
-libKF6WindowSystem.so.6:KX11Extras::activeWindowChanged(unsigned long long)
-libKF6WindowSystem.so.6:KX11Extras::desktopNamesChanged()
-libKF6WindowSystem.so.6:KX11Extras::stackingOrderChanged()
-libKF6WindowSystem.so.6:KX11Extras::currentDesktopChanged(int)
-libKF6WindowSystem.so.6:KX11Extras::numberOfDesktopsChanged(int)
-libKF6WindowSystem.so.6:KX11Extras::icon(unsigned long long, int, int, bool)
-libKF6WindowSystem.so.6:KX11Extras::icon(unsigned long long, int, int, bool, int)
-libKF6WindowSystem.so.6:KX11Extras::icon(unsigned long long, int, int, bool, int, NETWinInfo*)
-libKF6WindowSystem.so.6:KX11Extras::self()
-libKF6WindowSystem.so.6:KX11Extras::hasWId(unsigned long long)
-libKF6WindowSystem.so.6:KX11Extras::setType(unsigned long long, NET::WindowType)
-libKF6WindowSystem.so.6:KX11Extras::windows()
-libKF6WindowSystem.so.6:KX11Extras::setState(unsigned long long, QFlags<NET::State>)
-libKF6WindowSystem.so.6:KX11Extras::setStrut(unsigned long long, double, double, double, double)
-libKF6WindowSystem.so.6:KX11Extras::workArea(QList<unsigned long long> const&, int)
-libKF6WindowSystem.so.6:KX11Extras::workArea(int)
-libKF6WindowSystem.so.6:KXMessages::gotMessage(QString const&)
-libKF6WindowSystem.so.6:KXMessages::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KXMessages::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KXMessages::broadcastMessage(char const*, QString const&, int)
-libKF6WindowSystem.so.6:KXMessages::broadcastMessageX(xcb_connection_t*, char const*, QString const&, int)
-libKF6WindowSystem.so.6:KXMessages::KXMessages(xcb_connection_t*, unsigned int, char const*, QObject*)
-libKF6WindowSystem.so.6:KXMessages::KXMessages(char const*, QObject*)
-libKF6WindowSystem.so.6:KXMessages::KXMessages(xcb_connection_t*, unsigned int, char const*, QObject*)
-libKF6WindowSystem.so.6:KXMessages::KXMessages(char const*, QObject*)
-libKF6WindowSystem.so.6:KXMessages::~KXMessages()
-libKF6WindowSystem.so.6:KXMessages::~KXMessages()
-libKF6WindowSystem.so.6:KXMessages::~KXMessages()
-libKF6WindowSystem.so.6:NETWinInfo::setDesktop(int, bool)
-libKF6WindowSystem.so.6:NETWinInfo::setOpacity(unsigned long)
-libKF6WindowSystem.so.6:NETWinInfo::kdeGeometry(NETRect&, NETRect&)
-libKF6WindowSystem.so.6:NETWinInfo::setIconName(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setOpacityF(double)
-libKF6WindowSystem.so.6:NETWinInfo::setUserTime(unsigned int)
-libKF6WindowSystem.so.6:NETWinInfo::setStartupId(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::virtual_hook(int, void*)
-libKF6WindowSystem.so.6:NETWinInfo::setActivities(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setWindowType(NET::WindowType)
-libKF6WindowSystem.so.6:NETWinInfo::updateWMState()
-libKF6WindowSystem.so.6:NETWinInfo::setVisibleName(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setFrameExtents(NETStrut)
-libKF6WindowSystem.so.6:NETWinInfo::setFrameOverlap(NETStrut)
-libKF6WindowSystem.so.6:NETWinInfo::setHandledIcons(bool)
-libKF6WindowSystem.so.6:NETWinInfo::setIconGeometry(NETRect)
-libKF6WindowSystem.so.6:NETWinInfo::setIconInternal(NETRArray<NETIcon>&, int&, unsigned int, NETIcon, bool)
-libKF6WindowSystem.so.6:NETWinInfo::setExtendedStrut(NETExtendedStrut const&)
-libKF6WindowSystem.so.6:NETWinInfo::setAllowedActions(QFlags<NET::Action>)
-libKF6WindowSystem.so.6:NETWinInfo::setDesktopFileName(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setGtkFrameExtents(NETStrut)
-libKF6WindowSystem.so.6:NETWinInfo::setVisibleIconName(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setAppMenuObjectPath(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setAppMenuServiceName(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setFullscreenMonitors(NETFullscreenMonitors)
-libKF6WindowSystem.so.6:NETWinInfo::setBlockingCompositing(bool)
-libKF6WindowSystem.so.6:NETWinInfo::event(xcb_generic_event_t*)
-libKF6WindowSystem.so.6:NETWinInfo::event(xcb_generic_event_t*, QFlags<NET::Property>*, QFlags<NET::Property2>*)
-libKF6WindowSystem.so.6:NETWinInfo::setPid(int)
-libKF6WindowSystem.so.6:NETWinInfo::update(QFlags<NET::Property>, QFlags<NET::Property2>)
-libKF6WindowSystem.so.6:NETWinInfo::setIcon(NETIcon, bool)
-libKF6WindowSystem.so.6:NETWinInfo::setName(char const*)
-libKF6WindowSystem.so.6:NETWinInfo::setState(QFlags<NET::State>, QFlags<NET::State>)
-libKF6WindowSystem.so.6:NETWinInfo::setStrut(NETStrut)
-libKF6WindowSystem.so.6:NETWinInfo::NETWinInfo(xcb_connection_t*, unsigned int, unsigned int, QFlags<NET::Property>, QFlags<NET::Property2>, NET::Role)
-libKF6WindowSystem.so.6:NETWinInfo::NETWinInfo(NETWinInfo const&)
-libKF6WindowSystem.so.6:NETWinInfo::NETWinInfo(xcb_connection_t*, unsigned int, unsigned int, QFlags<NET::Property>, QFlags<NET::Property2>, NET::Role)
-libKF6WindowSystem.so.6:NETWinInfo::NETWinInfo(NETWinInfo const&)
-libKF6WindowSystem.so.6:NETWinInfo::~NETWinInfo()
-libKF6WindowSystem.so.6:NETWinInfo::~NETWinInfo()
-libKF6WindowSystem.so.6:NETWinInfo::~NETWinInfo()
-libKF6WindowSystem.so.6:NETWinInfo::operator=(NETWinInfo const&)
-libKF6WindowSystem.so.6:KWindowInfo::KWindowInfo(KWindowInfo const&)
-libKF6WindowSystem.so.6:KWindowInfo::KWindowInfo(unsigned long long, QFlags<NET::Property>, QFlags<NET::Property2>)
-libKF6WindowSystem.so.6:KWindowInfo::KWindowInfo(KWindowInfo const&)
-libKF6WindowSystem.so.6:KWindowInfo::KWindowInfo(unsigned long long, QFlags<NET::Property>, QFlags<NET::Property2>)
-libKF6WindowSystem.so.6:KWindowInfo::~KWindowInfo()
-libKF6WindowSystem.so.6:KWindowInfo::~KWindowInfo()
-libKF6WindowSystem.so.6:KWindowInfo::operator=(KWindowInfo const&)
-libKF6WindowSystem.so.6:NETRootInfo::setWorkArea(int, NETRect const&)
-libKF6WindowSystem.so.6:NETRootInfo::setSupported(NET::WindowTypeMask, bool)
-libKF6WindowSystem.so.6:NETRootInfo::setSupported(NET::State, bool)
-libKF6WindowSystem.so.6:NETRootInfo::setSupported(NET::Action, bool)
-libKF6WindowSystem.so.6:NETRootInfo::setSupported(NET::Property, bool)
-libKF6WindowSystem.so.6:NETRootInfo::setSupported(NET::Property2, bool)
-libKF6WindowSystem.so.6:NETRootInfo::setSupported()
-libKF6WindowSystem.so.6:NETRootInfo::virtual_hook(int, void*)
-libKF6WindowSystem.so.6:NETRootInfo::setClientList(unsigned int const*, unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::restackRequest(unsigned int, NET::RequestSource, unsigned int, int, unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::setDesktopName(int, char const*)
-libKF6WindowSystem.so.6:NETRootInfo::setActiveWindow(unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::setActiveWindow(unsigned int, NET::RequestSource, unsigned int, unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::setVirtualRoots(unsigned int const*, unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::setDesktopLayout(NET::Orientation, int, int, NET::DesktopLayoutCorner)
-libKF6WindowSystem.so.6:NETRootInfo::moveResizeRequest(unsigned int, int, int, NET::Direction, unsigned char, NET::RequestSource)
-libKF6WindowSystem.so.6:NETRootInfo::setCurrentDesktop(int, bool)
-libKF6WindowSystem.so.6:NETRootInfo::setShowingDesktop(bool)
-libKF6WindowSystem.so.6:NETRootInfo::closeWindowRequest(unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::setDesktopGeometry(NETSize const&)
-libKF6WindowSystem.so.6:NETRootInfo::setDesktopViewport(int, NETPoint const&)
-libKF6WindowSystem.so.6:NETRootInfo::setNumberOfDesktops(int)
-libKF6WindowSystem.so.6:NETRootInfo::setDefaultProperties()
-libKF6WindowSystem.so.6:NETRootInfo::setClientListStacking(unsigned int const*, unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::showWindowMenuRequest(unsigned int, int, int, int)
-libKF6WindowSystem.so.6:NETRootInfo::moveResizeWindowRequest(unsigned int, int, int, int, int, int)
-libKF6WindowSystem.so.6:NETRootInfo::updateSupportedProperties(unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::event(xcb_generic_event_t*)
-libKF6WindowSystem.so.6:NETRootInfo::event(xcb_generic_event_t*, QFlags<NET::Property>*, QFlags<NET::Property2>*)
-libKF6WindowSystem.so.6:NETRootInfo::update(QFlags<NET::Property>, QFlags<NET::Property2>)
-libKF6WindowSystem.so.6:NETRootInfo::activate()
-libKF6WindowSystem.so.6:NETRootInfo::sendPing(unsigned int, unsigned int)
-libKF6WindowSystem.so.6:NETRootInfo::NETRootInfo(xcb_connection_t*, QFlags<NET::Property>, QFlags<NET::Property2>, int, bool)
-libKF6WindowSystem.so.6:NETRootInfo::NETRootInfo(xcb_connection_t*, unsigned int, char const*, QFlags<NET::Property>, QFlags<NET::WindowTypeMask>, QFlags<NET::State>, QFlags<NET::Property2>, QFlags<NET::Action>, int, bool)
-libKF6WindowSystem.so.6:NETRootInfo::NETRootInfo(NETRootInfo const&)
-libKF6WindowSystem.so.6:NETRootInfo::NETRootInfo(xcb_connection_t*, QFlags<NET::Property>, QFlags<NET::Property2>, int, bool)
-libKF6WindowSystem.so.6:NETRootInfo::NETRootInfo(xcb_connection_t*, unsigned int, char const*, QFlags<NET::Property>, QFlags<NET::WindowTypeMask>, QFlags<NET::State>, QFlags<NET::Property2>, QFlags<NET::Action>, int, bool)
-libKF6WindowSystem.so.6:NETRootInfo::NETRootInfo(NETRootInfo const&)
-libKF6WindowSystem.so.6:NETRootInfo::~NETRootInfo()
-libKF6WindowSystem.so.6:NETRootInfo::~NETRootInfo()
-libKF6WindowSystem.so.6:NETRootInfo::~NETRootInfo()
-libKF6WindowSystem.so.6:NETRootInfo::operator=(NETRootInfo const&)
-libKF6WindowSystem.so.6:KStartupInfo::appStarted(QByteArray const&)
-libKF6WindowSystem.so.6:KStartupInfo::appStarted()
-libKF6WindowSystem.so.6:KStartupInfo::sendChange(KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::sendFinish(KStartupInfoId const&)
-libKF6WindowSystem.so.6:KStartupInfo::sendFinish(KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::setTimeout(unsigned int)
-libKF6WindowSystem.so.6:KStartupInfo::customEvent(QEvent*)
-libKF6WindowSystem.so.6:KStartupInfo::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KStartupInfo::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KStartupInfo::sendStartup(KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::checkStartup(unsigned long long)
-libKF6WindowSystem.so.6:KStartupInfo::checkStartup(unsigned long long, KStartupInfoId&)
-libKF6WindowSystem.so.6:KStartupInfo::checkStartup(unsigned long long, KStartupInfoId&, KStartupInfoData&)
-libKF6WindowSystem.so.6:KStartupInfo::checkStartup(unsigned long long, KStartupInfoData&)
-libKF6WindowSystem.so.6:KStartupInfo::setStartupId(QByteArray const&)
-libKF6WindowSystem.so.6:KStartupInfo::gotNewStartup(KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::sendChangeXcb(xcb_connection_t*, int, KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::sendFinishXcb(xcb_connection_t*, int, KStartupInfoId const&)
-libKF6WindowSystem.so.6:KStartupInfo::sendFinishXcb(xcb_connection_t*, int, KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::sendStartupXcb(xcb_connection_t*, int, KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::resetStartupEnv()
-libKF6WindowSystem.so.6:KStartupInfo::setNewStartupId(QWindow*, QByteArray const&)
-libKF6WindowSystem.so.6:KStartupInfo::windowStartupId(unsigned long long)
-libKF6WindowSystem.so.6:KStartupInfo::gotRemoveStartup(KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::gotStartupChange(KStartupInfoId const&, KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfo::createNewStartupId()
-libKF6WindowSystem.so.6:KStartupInfo::createNewStartupIdForTimestamp(unsigned int)
-libKF6WindowSystem.so.6:KStartupInfo::KStartupInfo(int, QObject*)
-libKF6WindowSystem.so.6:KStartupInfo::KStartupInfo(int, QObject*)
-libKF6WindowSystem.so.6:KStartupInfo::~KStartupInfo()
-libKF6WindowSystem.so.6:KStartupInfo::~KStartupInfo()
-libKF6WindowSystem.so.6:KStartupInfo::~KStartupInfo()
-libKF6WindowSystem.so.6:KWindowShadow::setPadding(QMargins const&)
-libKF6WindowSystem.so.6:KWindowShadow::setTopTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KWindowShadow::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KWindowShadow::setLeftTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::setRightTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::setBottomTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::setTopLeftTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::setTopRightTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::setBottomLeftTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::setBottomRightTile(QSharedPointer<KWindowShadowTile>)
-libKF6WindowSystem.so.6:KWindowShadow::create()
-libKF6WindowSystem.so.6:KWindowShadow::destroy()
-libKF6WindowSystem.so.6:KWindowShadow::setWindow(QWindow*)
-libKF6WindowSystem.so.6:KWindowShadow::KWindowShadow(QObject*)
-libKF6WindowSystem.so.6:KWindowShadow::KWindowShadow(QObject*)
-libKF6WindowSystem.so.6:KWindowShadow::~KWindowShadow()
-libKF6WindowSystem.so.6:KWindowShadow::~KWindowShadow()
-libKF6WindowSystem.so.6:KWindowShadow::~KWindowShadow()
-libKF6WindowSystem.so.6:KWindowSystem::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KWindowSystem::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KWindowSystem::isPlatformX11()
-libKF6WindowSystem.so.6:KWindowSystem::setMainWindow(QWindow*, QString const&)
-libKF6WindowSystem.so.6:KWindowSystem::setMainWindow(QWindow*, unsigned long long)
-libKF6WindowSystem.so.6:KWindowSystem::activateWindow(QWindow*, long)
-libKF6WindowSystem.so.6:KWindowSystem::showingDesktop()
-libKF6WindowSystem.so.6:KWindowSystem::updateStartupId(QWindow*)
-libKF6WindowSystem.so.6:KWindowSystem::isPlatformWayland()
-libKF6WindowSystem.so.6:KWindowSystem::setShowingDesktop(bool)
-libKF6WindowSystem.so.6:KWindowSystem::showingDesktopChanged(bool)
-libKF6WindowSystem.so.6:KWindowSystem::setCurrentXdgActivationToken(QString const&)
-libKF6WindowSystem.so.6:KWindowSystem::self()
-libKF6WindowSystem.so.6:KWindowSystem::d_func()
-libKF6WindowSystem.so.6:KWindowSystem::platform()
-libKF6WindowSystem.so.6:KStartupInfoId::initId(QByteArray const&)
-libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId(KStartupInfoId const&)
-libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId()
-libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId(KStartupInfoId const&)
-libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId()
-libKF6WindowSystem.so.6:KStartupInfoId::~KStartupInfoId()
-libKF6WindowSystem.so.6:KStartupInfoId::~KStartupInfoId()
-libKF6WindowSystem.so.6:KStartupInfoId::operator=(KStartupInfoId const&)
-libKF6WindowSystem.so.6:KUserTimestamp::userTimestamp()
-libKF6WindowSystem.so.6:KUserTimestamp::updateUserTimestamp(unsigned long)
-libKF6WindowSystem.so.6:KWaylandExtras::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KWaylandExtras::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KWaylandExtras::exportWindow(QWindow*)
-libKF6WindowSystem.so.6:KWaylandExtras::unexportWindow(QWindow*)
-libKF6WindowSystem.so.6:KWaylandExtras::windowExported(QWindow*, QString const&)
-libKF6WindowSystem.so.6:KWaylandExtras::lastInputSerial(QWindow*)
-libKF6WindowSystem.so.6:KWaylandExtras::requestXdgActivationToken(QWindow*, unsigned int, QString const&)
-libKF6WindowSystem.so.6:KWaylandExtras::xdgActivationTokenArrived(int, QString const&)
-libKF6WindowSystem.so.6:KWaylandExtras::self()
-libKF6WindowSystem.so.6:KWaylandExtras::KWaylandExtras()
-libKF6WindowSystem.so.6:KWaylandExtras::KWaylandExtras()
-libKF6WindowSystem.so.6:KWaylandExtras::~KWaylandExtras()
-libKF6WindowSystem.so.6:KWaylandExtras::~KWaylandExtras()
-libKF6WindowSystem.so.6:KWaylandExtras::~KWaylandExtras()
-libKF6WindowSystem.so.6:KWindowEffects::slideWindow(QWindow*, KWindowEffects::SlideFromLocation, int)
-libKF6WindowSystem.so.6:KWindowEffects::enableBlurBehind(QWindow*, bool, QRegion const&)
-libKF6WindowSystem.so.6:KWindowEffects::isEffectAvailable(KWindowEffects::Effect)
-libKF6WindowSystem.so.6:KWindowEffects::enableBackgroundContrast(QWindow*, bool, double, double, double, QRegion const&)
-libKF6WindowSystem.so.6:KSelectionOwner::timerEvent(QTimerEvent*)
-libKF6WindowSystem.so.6:KSelectionOwner::filterEvent(void*)
-libKF6WindowSystem.so.6:KSelectionOwner::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KSelectionOwner::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KSelectionOwner::genericReply(unsigned int, unsigned int, unsigned int)
-libKF6WindowSystem.so.6:KSelectionOwner::replyTargets(unsigned int, unsigned int)
-libKF6WindowSystem.so.6:KSelectionOwner::lostOwnership()
 libKF6WindowSystem.so.6:KSelectionOwner::claimedOwnership()
-libKF6WindowSystem.so.6:KSelectionOwner::handle_selection(unsigned int, unsigned int, unsigned int)
 libKF6WindowSystem.so.6:KSelectionOwner::failedToClaimOwnership()
+libKF6WindowSystem.so.6:KSelectionOwner::filterEvent(void*)
 libKF6WindowSystem.so.6:KSelectionOwner::filter_selection_request(void*)
-libKF6WindowSystem.so.6:KSelectionOwner::claim(bool, bool)
-libKF6WindowSystem.so.6:KSelectionOwner::release()
-libKF6WindowSystem.so.6:KSelectionOwner::setData(unsigned int, unsigned int)
 libKF6WindowSystem.so.6:KSelectionOwner::getAtoms()
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(char const*, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(char const*, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(unsigned int, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(unsigned int, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(char const*, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(char const*, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(unsigned int, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionOwner::KSelectionOwner(unsigned int, int, QObject*)
+libKF6WindowSystem.so.6:KSelectionOwner::lostOwnership()
+libKF6WindowSystem.so.6:KSelectionOwner::release()
+libKF6WindowSystem.so.6:KSelectionOwner::timerEvent(QTimerEvent*)
 libKF6WindowSystem.so.6:KSelectionOwner::~KSelectionOwner()
-libKF6WindowSystem.so.6:KSelectionOwner::~KSelectionOwner()
-libKF6WindowSystem.so.6:KSelectionOwner::~KSelectionOwner()
-libKF6WindowSystem.so.6:KStartupInfoData::setDesktop(int)
-libKF6WindowSystem.so.6:KStartupInfoData::setWMClass(QByteArray const&)
-libKF6WindowSystem.so.6:KStartupInfoData::setHostname(QByteArray const&)
-libKF6WindowSystem.so.6:KStartupInfoData::setXinerama(int)
-libKF6WindowSystem.so.6:KStartupInfoData::setDescription(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoData::setApplicationId(QString const&)
+libKF6WindowSystem.so.6:KSelectionWatcher::filterEvent(void*)
+libKF6WindowSystem.so.6:KSelectionWatcher::init()
+libKF6WindowSystem.so.6:KSelectionWatcher::lostOwner()
+libKF6WindowSystem.so.6:KSelectionWatcher::owner()
+libKF6WindowSystem.so.6:KSelectionWatcher::~KSelectionWatcher()
+libKF6WindowSystem.so.6:KStartupInfo::appStarted()
+libKF6WindowSystem.so.6:KStartupInfo::createNewStartupId()
+libKF6WindowSystem.so.6:KStartupInfo::customEvent(QEvent*)
+libKF6WindowSystem.so.6:KStartupInfo::resetStartupEnv()
+libKF6WindowSystem.so.6:KStartupInfo::~KStartupInfo()
+libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData()
 libKF6WindowSystem.so.6:KStartupInfoData::addPid(int)
-libKF6WindowSystem.so.6:KStartupInfoData::setBin(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoData::update(KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfoData::setIcon(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoData::setName(QString const&)
+libKF6WindowSystem.so.6:KStartupInfoData::setDesktop(int)
 libKF6WindowSystem.so.6:KStartupInfoData::setScreen(int)
 libKF6WindowSystem.so.6:KStartupInfoData::setSilent(KStartupInfoData::TriState)
-libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData(KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData()
-libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData(QString const&)
-libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData(KStartupInfoData const&)
-libKF6WindowSystem.so.6:KStartupInfoData::KStartupInfoData()
+libKF6WindowSystem.so.6:KStartupInfoData::setXinerama(int)
 libKF6WindowSystem.so.6:KStartupInfoData::~KStartupInfoData()
-libKF6WindowSystem.so.6:KStartupInfoData::~KStartupInfoData()
-libKF6WindowSystem.so.6:KStartupInfoData::operator=(KStartupInfoData const&)
-libKF6WindowSystem.so.6:KSelectionWatcher::filterEvent(void*)
-libKF6WindowSystem.so.6:KSelectionWatcher::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KSelectionWatcher::qt_metacast(char const*)
-libKF6WindowSystem.so.6:KSelectionWatcher::init()
-libKF6WindowSystem.so.6:KSelectionWatcher::owner()
-libKF6WindowSystem.so.6:KSelectionWatcher::newOwner(unsigned int)
-libKF6WindowSystem.so.6:KSelectionWatcher::lostOwner()
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(char const*, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(char const*, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(unsigned int, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(unsigned int, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(char const*, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(char const*, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(unsigned int, xcb_connection_t*, unsigned int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::KSelectionWatcher(unsigned int, int, QObject*)
-libKF6WindowSystem.so.6:KSelectionWatcher::~KSelectionWatcher()
-libKF6WindowSystem.so.6:KSelectionWatcher::~KSelectionWatcher()
-libKF6WindowSystem.so.6:KSelectionWatcher::~KSelectionWatcher()
-libKF6WindowSystem.so.6:KWindowShadowTile::create()
-libKF6WindowSystem.so.6:KWindowShadowTile::setImage(QImage const&)
-libKF6WindowSystem.so.6:KWindowShadowTile::KWindowShadowTile()
-libKF6WindowSystem.so.6:KWindowShadowTile::KWindowShadowTile()
-libKF6WindowSystem.so.6:KWindowShadowTile::~KWindowShadowTile()
-libKF6WindowSystem.so.6:KWindowShadowTile::~KWindowShadowTile()
-libKF6WindowSystem.so.6:KWindowShadowPrivate::prepareTiles()
+libKF6WindowSystem.so.6:KStartupInfoId::KStartupInfoId()
+libKF6WindowSystem.so.6:KStartupInfoId::~KStartupInfoId()
+libKF6WindowSystem.so.6:KUserTimestamp::userTimestamp()
+libKF6WindowSystem.so.6:KWaylandExtras::KWaylandExtras()
+libKF6WindowSystem.so.6:KWaylandExtras::exportWindow(QWindow*)
+libKF6WindowSystem.so.6:KWaylandExtras::lastInputSerial(QWindow*)
+libKF6WindowSystem.so.6:KWaylandExtras::self()
+libKF6WindowSystem.so.6:KWaylandExtras::unexportWindow(QWindow*)
+libKF6WindowSystem.so.6:KWaylandExtras::~KWaylandExtras()
+libKF6WindowSystem.so.6:KWindowEffects::isEffectAvailable(KWindowEffects::Effect)
+libKF6WindowSystem.so.6:KWindowEffectsPrivate::KWindowEffectsPrivate()
+libKF6WindowSystem.so.6:KWindowEffectsPrivate::~KWindowEffectsPrivate()
+libKF6WindowSystem.so.6:KWindowInfo::~KWindowInfo()
+libKF6WindowSystem.so.6:KWindowShadow::KWindowShadow(QObject*)
+libKF6WindowSystem.so.6:KWindowShadow::create()
+libKF6WindowSystem.so.6:KWindowShadow::destroy()
+libKF6WindowSystem.so.6:KWindowShadow::setBottomLeftTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setBottomRightTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setBottomTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setLeftTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setRightTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setTopLeftTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setTopRightTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setTopTile(QSharedPointer<KWindowShadowTile>)
+libKF6WindowSystem.so.6:KWindowShadow::setWindow(QWindow*)
+libKF6WindowSystem.so.6:KWindowShadow::~KWindowShadow()
 libKF6WindowSystem.so.6:KWindowShadowPrivate::create()
 libKF6WindowSystem.so.6:KWindowShadowPrivate::destroy()
+libKF6WindowSystem.so.6:KWindowShadowPrivate::prepareTiles()
 libKF6WindowSystem.so.6:KWindowShadowPrivate::~KWindowShadowPrivate()
-libKF6WindowSystem.so.6:KWindowShadowPrivate::~KWindowShadowPrivate()
-libKF6WindowSystem.so.6:KWindowShadowPrivate::~KWindowShadowPrivate()
-libKF6WindowSystem.so.6:KWindowSystemPrivate::~KWindowSystemPrivate()
-libKF6WindowSystem.so.6:KWindowSystemPrivate::~KWindowSystemPrivate()
-libKF6WindowSystem.so.6:KWindowSystemPrivate::~KWindowSystemPrivate()
-libKF6WindowSystem.so.6:KWindowEffectsPrivate::KWindowEffectsPrivate()
-libKF6WindowSystem.so.6:KWindowEffectsPrivate::KWindowEffectsPrivate()
-libKF6WindowSystem.so.6:KWindowEffectsPrivate::~KWindowEffectsPrivate()
-libKF6WindowSystem.so.6:KWindowEffectsPrivate::~KWindowEffectsPrivate()
-libKF6WindowSystem.so.6:KWindowEffectsPrivate::~KWindowEffectsPrivate()
-libKF6WindowSystem.so.6:KWindowShadowTilePrivate::get(KWindowShadowTile const*)
+libKF6WindowSystem.so.6:KWindowShadowTile::KWindowShadowTile()
+libKF6WindowSystem.so.6:KWindowShadowTile::create()
+libKF6WindowSystem.so.6:KWindowShadowTile::~KWindowShadowTile()
 libKF6WindowSystem.so.6:KWindowShadowTilePrivate::~KWindowShadowTilePrivate()
-libKF6WindowSystem.so.6:KWindowShadowTilePrivate::~KWindowShadowTilePrivate()
-libKF6WindowSystem.so.6:KWindowShadowTilePrivate::~KWindowShadowTilePrivate()
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::qt_metacall(QMetaObject::Call, int, void**)
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::qt_metacast(char const*)
+libKF6WindowSystem.so.6:KWindowSystem::d_func()
+libKF6WindowSystem.so.6:KWindowSystem::isPlatformWayland()
+libKF6WindowSystem.so.6:KWindowSystem::isPlatformX11()
+libKF6WindowSystem.so.6:KWindowSystem::platform()
+libKF6WindowSystem.so.6:KWindowSystem::self()
+libKF6WindowSystem.so.6:KWindowSystem::setShowingDesktop(bool)
+libKF6WindowSystem.so.6:KWindowSystem::showingDesktop()
+libKF6WindowSystem.so.6:KWindowSystem::showingDesktopChanged(bool)
+libKF6WindowSystem.so.6:KWindowSystem::updateStartupId(QWindow*)
+libKF6WindowSystem.so.6:KWindowSystemPluginInterface::KWindowSystemPluginInterface(QObject*)
 libKF6WindowSystem.so.6:KWindowSystemPluginInterface::createEffects()
 libKF6WindowSystem.so.6:KWindowSystemPluginInterface::createWindowShadow()
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::createWindowSystem()
 libKF6WindowSystem.so.6:KWindowSystemPluginInterface::createWindowShadowTile()
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::KWindowSystemPluginInterface(QObject*)
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::KWindowSystemPluginInterface(QObject*)
+libKF6WindowSystem.so.6:KWindowSystemPluginInterface::createWindowSystem()
 libKF6WindowSystem.so.6:KWindowSystemPluginInterface::~KWindowSystemPluginInterface()
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::~KWindowSystemPluginInterface()
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::~KWindowSystemPluginInterface()
-libKF6WindowSystem.so.6:NET::timestampDiff(unsigned long, unsigned long)
-libKF6WindowSystem.so.6:NET::typeMatchesMask(NET::WindowType, QFlags<NET::WindowTypeMask>)
-libKF6WindowSystem.so.6:NET::timestampCompare(unsigned long, unsigned long)
-libKF6WindowSystem.so.6:KX11Extras::metaObject() const
-libKF6WindowSystem.so.6:KXMessages::metaObject() const
-libKF6WindowSystem.so.6:NETWinInfo::activities() const
-libKF6WindowSystem.so.6:NETWinInfo::windowRole() const
-libKF6WindowSystem.so.6:NETWinInfo::windowType(QFlags<NET::WindowTypeMask>) const
-libKF6WindowSystem.so.6:NETWinInfo::groupLeader() const
-libKF6WindowSystem.so.6:NETWinInfo::visibleName() const
-libKF6WindowSystem.so.6:NETWinInfo::frameExtents() const
-libKF6WindowSystem.so.6:NETWinInfo::frameOverlap() const
-libKF6WindowSystem.so.6:NETWinInfo::handledIcons() const
-libKF6WindowSystem.so.6:NETWinInfo::iconGeometry() const
-libKF6WindowSystem.so.6:NETWinInfo::iconInternal(NETRArray<NETIcon>&, int, int, int) const
-libKF6WindowSystem.so.6:NETWinInfo::mappingState() const
-libKF6WindowSystem.so.6:NETWinInfo::opaqueRegion() const
-libKF6WindowSystem.so.6:NETWinInfo::transientFor() const
-libKF6WindowSystem.so.6:NETWinInfo::clientMachine() const
-libKF6WindowSystem.so.6:NETWinInfo::extendedStrut() const
-libKF6WindowSystem.so.6:NETWinInfo::hasNETSupport() const
-libKF6WindowSystem.so.6:NETWinInfo::hasWindowType() const
-libKF6WindowSystem.so.6:NETWinInfo::xcbConnection() const
-libKF6WindowSystem.so.6:NETWinInfo::allowedActions() const
-libKF6WindowSystem.so.6:NETWinInfo::desktopFileName() const
-libKF6WindowSystem.so.6:NETWinInfo::gtkFrameExtents() const
-libKF6WindowSystem.so.6:NETWinInfo::icccmIconPixmap() const
-libKF6WindowSystem.so.6:NETWinInfo::visibleIconName() const
-libKF6WindowSystem.so.6:NETWinInfo::windowClassName() const
-libKF6WindowSystem.so.6:NETWinInfo::gtkApplicationId() const
-libKF6WindowSystem.so.6:NETWinInfo::passedProperties() const
-libKF6WindowSystem.so.6:NETWinInfo::supportsProtocol(NET::Protocol) const
-libKF6WindowSystem.so.6:NETWinInfo::windowClassClass() const
-libKF6WindowSystem.so.6:NETWinInfo::appMenuObjectPath() const
-libKF6WindowSystem.so.6:NETWinInfo::passedProperties2() const
-libKF6WindowSystem.so.6:NETWinInfo::appMenuServiceName() const
-libKF6WindowSystem.so.6:NETWinInfo::fullscreenMonitors() const
-libKF6WindowSystem.so.6:NETWinInfo::icccmIconPixmapMask() const
-libKF6WindowSystem.so.6:NETWinInfo::initialMappingState() const
-libKF6WindowSystem.so.6:NETWinInfo::isBlockingCompositing() const
-libKF6WindowSystem.so.6:NETWinInfo::pid() const
-libKF6WindowSystem.so.6:NETWinInfo::icon(int, int) const
-libKF6WindowSystem.so.6:NETWinInfo::name() const
-libKF6WindowSystem.so.6:NETWinInfo::input() const
-libKF6WindowSystem.so.6:NETWinInfo::state() const
-libKF6WindowSystem.so.6:NETWinInfo::strut() const
-libKF6WindowSystem.so.6:NETWinInfo::desktop(bool) const
-libKF6WindowSystem.so.6:NETWinInfo::opacity() const
-libKF6WindowSystem.so.6:NETWinInfo::urgency() const
-libKF6WindowSystem.so.6:NETWinInfo::iconName() const
-libKF6WindowSystem.so.6:NETWinInfo::opacityF() const
-libKF6WindowSystem.so.6:NETWinInfo::userTime() const
-libKF6WindowSystem.so.6:NETWinInfo::iconSizes() const
-libKF6WindowSystem.so.6:NETWinInfo::protocols() const
-libKF6WindowSystem.so.6:NETWinInfo::startupId() const
-libKF6WindowSystem.so.6:KWindowInfo::activities() const
-libKF6WindowSystem.so.6:KWindowInfo::windowRole() const
-libKF6WindowSystem.so.6:KWindowInfo::windowType(QFlags<NET::WindowTypeMask>) const
-libKF6WindowSystem.so.6:KWindowInfo::groupLeader() const
-libKF6WindowSystem.so.6:KWindowInfo::isMinimized() const
-libKF6WindowSystem.so.6:KWindowInfo::isOnDesktop(int) const
-libKF6WindowSystem.so.6:KWindowInfo::visibleName() const
-libKF6WindowSystem.so.6:KWindowInfo::mappingState() const
-libKF6WindowSystem.so.6:KWindowInfo::transientFor() const
-libKF6WindowSystem.so.6:KWindowInfo::clientMachine() const
-libKF6WindowSystem.so.6:KWindowInfo::extendedStrut() const
-libKF6WindowSystem.so.6:KWindowInfo::frameGeometry() const
-libKF6WindowSystem.so.6:KWindowInfo::onAllDesktops() const
-libKF6WindowSystem.so.6:KWindowInfo::actionSupported(NET::Action) const
-libKF6WindowSystem.so.6:KWindowInfo::desktopFileName() const
-libKF6WindowSystem.so.6:KWindowInfo::visibleIconName() const
-libKF6WindowSystem.so.6:KWindowInfo::windowClassName() const
-libKF6WindowSystem.so.6:KWindowInfo::gtkApplicationId() const
-libKF6WindowSystem.so.6:KWindowInfo::windowClassClass() const
-libKF6WindowSystem.so.6:KWindowInfo::isOnCurrentDesktop() const
-libKF6WindowSystem.so.6:KWindowInfo::visibleNameWithState() const
-libKF6WindowSystem.so.6:KWindowInfo::visibleIconNameWithState() const
-libKF6WindowSystem.so.6:KWindowInfo::applicationMenuObjectPath() const
-libKF6WindowSystem.so.6:KWindowInfo::applicationMenuServiceName() const
-libKF6WindowSystem.so.6:KWindowInfo::pid() const
-libKF6WindowSystem.so.6:KWindowInfo::win() const
-libKF6WindowSystem.so.6:KWindowInfo::name() const
-libKF6WindowSystem.so.6:KWindowInfo::state() const
-libKF6WindowSystem.so.6:KWindowInfo::valid(bool) const
-libKF6WindowSystem.so.6:KWindowInfo::desktop() const
-libKF6WindowSystem.so.6:KWindowInfo::geometry() const
-libKF6WindowSystem.so.6:KWindowInfo::hasState(QFlags<NET::State>) const
-libKF6WindowSystem.so.6:KWindowInfo::iconName() const
-libKF6WindowSystem.so.6:NETRootInfo::clientList() const
-libKF6WindowSystem.so.6:NETRootInfo::rootWindow() const
-libKF6WindowSystem.so.6:NETRootInfo::desktopName(int) const
-libKF6WindowSystem.so.6:NETRootInfo::isSupported(NET::WindowTypeMask) const
-libKF6WindowSystem.so.6:NETRootInfo::isSupported(NET::State) const
-libKF6WindowSystem.so.6:NETRootInfo::isSupported(NET::Action) const
-libKF6WindowSystem.so.6:NETRootInfo::isSupported(NET::Property) const
-libKF6WindowSystem.so.6:NETRootInfo::isSupported(NET::Property2) const
-libKF6WindowSystem.so.6:NETRootInfo::activeWindow() const
-libKF6WindowSystem.so.6:NETRootInfo::passedStates() const
-libKF6WindowSystem.so.6:NETRootInfo::virtualRoots() const
-libKF6WindowSystem.so.6:NETRootInfo::passedActions() const
-libKF6WindowSystem.so.6:NETRootInfo::supportWindow() const
-libKF6WindowSystem.so.6:NETRootInfo::xcbConnection() const
-libKF6WindowSystem.so.6:NETRootInfo::currentDesktop(bool) const
-libKF6WindowSystem.so.6:NETRootInfo::showingDesktop() const
-libKF6WindowSystem.so.6:NETRootInfo::clientListCount() const
-libKF6WindowSystem.so.6:NETRootInfo::desktopGeometry() const
-libKF6WindowSystem.so.6:NETRootInfo::desktopViewport(int) const
-libKF6WindowSystem.so.6:NETRootInfo::supportedStates() const
-libKF6WindowSystem.so.6:NETRootInfo::numberOfDesktops(bool) const
-libKF6WindowSystem.so.6:NETRootInfo::passedProperties() const
-libKF6WindowSystem.so.6:NETRootInfo::supportedActions() const
-libKF6WindowSystem.so.6:NETRootInfo::passedProperties2() const
-libKF6WindowSystem.so.6:NETRootInfo::passedWindowTypes() const
-libKF6WindowSystem.so.6:NETRootInfo::virtualRootsCount() const
-libKF6WindowSystem.so.6:NETRootInfo::clientListStacking() const
-libKF6WindowSystem.so.6:NETRootInfo::desktopLayoutCorner() const
-libKF6WindowSystem.so.6:NETRootInfo::supportedProperties() const
-libKF6WindowSystem.so.6:NETRootInfo::supportedProperties2() const
-libKF6WindowSystem.so.6:NETRootInfo::supportedWindowTypes() const
-libKF6WindowSystem.so.6:NETRootInfo::clientListStackingCount() const
-libKF6WindowSystem.so.6:NETRootInfo::desktopLayoutColumnsRows() const
-libKF6WindowSystem.so.6:NETRootInfo::desktopLayoutOrientation() const
-libKF6WindowSystem.so.6:NETRootInfo::wmName() const
-libKF6WindowSystem.so.6:NETRootInfo::workArea(int) const
-libKF6WindowSystem.so.6:KStartupInfo::metaObject() const
-libKF6WindowSystem.so.6:KWindowShadow::bottomTile() const
-libKF6WindowSystem.so.6:KWindowShadow::metaObject() const
-libKF6WindowSystem.so.6:KWindowShadow::topLeftTile() const
-libKF6WindowSystem.so.6:KWindowShadow::topRightTile() const
-libKF6WindowSystem.so.6:KWindowShadow::bottomLeftTile() const
-libKF6WindowSystem.so.6:KWindowShadow::bottomRightTile() const
-libKF6WindowSystem.so.6:KWindowShadow::window() const
-libKF6WindowSystem.so.6:KWindowShadow::padding() const
-libKF6WindowSystem.so.6:KWindowShadow::topTile() const
-libKF6WindowSystem.so.6:KWindowShadow::leftTile() const
-libKF6WindowSystem.so.6:KWindowShadow::isCreated() const
-libKF6WindowSystem.so.6:KWindowShadow::rightTile() const
-libKF6WindowSystem.so.6:KWindowSystem::metaObject() const
-libKF6WindowSystem.so.6:KStartupInfoId::setupStartupEnv() const
-libKF6WindowSystem.so.6:KStartupInfoId::id() const
-libKF6WindowSystem.so.6:KStartupInfoId::isNull() const
-libKF6WindowSystem.so.6:KStartupInfoId::timestamp() const
-libKF6WindowSystem.so.6:KStartupInfoId::operator==(KStartupInfoId const&) const
-libKF6WindowSystem.so.6:KStartupInfoId::operator<(KStartupInfoId const&) const
-libKF6WindowSystem.so.6:KStartupInfoId::operator!=(KStartupInfoId const&) const
-libKF6WindowSystem.so.6:KWaylandExtras::metaObject() const
-libKF6WindowSystem.so.6:KSelectionOwner::metaObject() const
-libKF6WindowSystem.so.6:KSelectionOwner::ownerWindow() const
-libKF6WindowSystem.so.6:KStartupInfoData::description() const
-libKF6WindowSystem.so.6:KStartupInfoData::findWMClass() const
-libKF6WindowSystem.so.6:KStartupInfoData::applicationId() const
-libKF6WindowSystem.so.6:KStartupInfoData::findDescription() const
-libKF6WindowSystem.so.6:KStartupInfoData::bin() const
-libKF6WindowSystem.so.6:KStartupInfoData::icon() const
-libKF6WindowSystem.so.6:KStartupInfoData::name() const
-libKF6WindowSystem.so.6:KStartupInfoData::pids() const
-libKF6WindowSystem.so.6:KStartupInfoData::is_pid(int) const
-libKF6WindowSystem.so.6:KStartupInfoData::screen() const
-libKF6WindowSystem.so.6:KStartupInfoData::silent() const
-libKF6WindowSystem.so.6:KStartupInfoData::WMClass() const
-libKF6WindowSystem.so.6:KStartupInfoData::desktop() const
-libKF6WindowSystem.so.6:KStartupInfoData::findIcon() const
-libKF6WindowSystem.so.6:KStartupInfoData::findName() const
-libKF6WindowSystem.so.6:KStartupInfoData::hostname() const
-libKF6WindowSystem.so.6:KStartupInfoData::xinerama() const
-libKF6WindowSystem.so.6:KSelectionWatcher::metaObject() const
-libKF6WindowSystem.so.6:KWindowShadowTile::image() const
-libKF6WindowSystem.so.6:KWindowShadowTile::isCreated() const
-libKF6WindowSystem.so.6:KWindowSystemPluginInterface::metaObject() const
+libKF6WindowSystem.so.6:KWindowSystemPrivate::~KWindowSystemPrivate()
+libKF6WindowSystem.so.6:KX11Extras::activeWindow()
+libKF6WindowSystem.so.6:KX11Extras::compositingActive()
+libKF6WindowSystem.so.6:KX11Extras::compositingChanged(bool)
+libKF6WindowSystem.so.6:KX11Extras::currentDesktop()
+libKF6WindowSystem.so.6:KX11Extras::currentDesktopChanged(int)
+libKF6WindowSystem.so.6:KX11Extras::desktopName(int)
+libKF6WindowSystem.so.6:KX11Extras::desktopNamesChanged()
+libKF6WindowSystem.so.6:KX11Extras::mapViewport()
+libKF6WindowSystem.so.6:KX11Extras::numberOfDesktops()
+libKF6WindowSystem.so.6:KX11Extras::numberOfDesktopsChanged(int)
+libKF6WindowSystem.so.6:KX11Extras::self()
+libKF6WindowSystem.so.6:KX11Extras::setCurrentDesktop(int)
+libKF6WindowSystem.so.6:KX11Extras::setShowingDesktop(bool)
+libKF6WindowSystem.so.6:KX11Extras::showingDesktop()
+libKF6WindowSystem.so.6:KX11Extras::stackingOrder()
+libKF6WindowSystem.so.6:KX11Extras::stackingOrderChanged()
+libKF6WindowSystem.so.6:KX11Extras::strutChanged()
+libKF6WindowSystem.so.6:KX11Extras::windows()
+libKF6WindowSystem.so.6:KX11Extras::workArea(int)
+libKF6WindowSystem.so.6:KX11Extras::workAreaChanged()
+libKF6WindowSystem.so.6:KXMessages::~KXMessages()
+libKF6WindowSystem.so.6:NETRootInfo::activate()
+libKF6WindowSystem.so.6:NETRootInfo::event(xcb_generic_event_t*)
+libKF6WindowSystem.so.6:NETRootInfo::setDefaultProperties()
+libKF6WindowSystem.so.6:NETRootInfo::setNumberOfDesktops(int)
+libKF6WindowSystem.so.6:NETRootInfo::setShowingDesktop(bool)
+libKF6WindowSystem.so.6:NETRootInfo::setSupported()
+libKF6WindowSystem.so.6:NETRootInfo::~NETRootInfo()
+libKF6WindowSystem.so.6:NETWinInfo::event(xcb_generic_event_t*)
+libKF6WindowSystem.so.6:NETWinInfo::setAllowedActions(QFlags<NET::Action>)
+libKF6WindowSystem.so.6:NETWinInfo::setBlockingCompositing(bool)
+libKF6WindowSystem.so.6:NETWinInfo::setFrameExtents(NETStrut)
+libKF6WindowSystem.so.6:NETWinInfo::setFrameOverlap(NETStrut)
+libKF6WindowSystem.so.6:NETWinInfo::setFullscreenMonitors(NETFullscreenMonitors)
+libKF6WindowSystem.so.6:NETWinInfo::setGtkFrameExtents(NETStrut)
+libKF6WindowSystem.so.6:NETWinInfo::setHandledIcons(bool)
+libKF6WindowSystem.so.6:NETWinInfo::setIconGeometry(NETRect)
+libKF6WindowSystem.so.6:NETWinInfo::setOpacityF(double)
+libKF6WindowSystem.so.6:NETWinInfo::setPid(int)
+libKF6WindowSystem.so.6:NETWinInfo::setStrut(NETStrut)
+libKF6WindowSystem.so.6:NETWinInfo::setWindowType(NET::WindowType)
+libKF6WindowSystem.so.6:NETWinInfo::updateWMState()
+libKF6WindowSystem.so.6:NETWinInfo::~NETWinInfo()
